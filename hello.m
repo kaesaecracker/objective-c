@@ -31,8 +31,7 @@ int main(void)
 {
 	NSLog(@"Hello from main!");
 
-	id helloInstance;
-	helloInstance=[[Hello alloc] initWithName:@"SomeName"];
+	Hello *helloInstance = [[Hello alloc] initWithName:@"SomeName"];
 
 	[helloInstance hello];
 
